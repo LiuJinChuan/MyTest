@@ -44,11 +44,11 @@ section.Animation .text{
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    animation:rloading 1.8s ease infinite alternate;
     -webkit-animation:rloading 1.8s ease infinite alternate;
     -moz-animation:rloading 1.8s ease infinite alternate;
     -ms-animation:rloading 1.8s ease infinite alternate;
     -o-animation:rloading 1.8s ease infinite alternate;
+    animation:rloading 1.8s ease infinite alternate;
 }
 section.Animation .music{
     height: 100vh;
