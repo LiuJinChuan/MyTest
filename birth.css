@@ -13,7 +13,6 @@ a{
     text-decoration: none;
     color:inherit;
 }
-
 @keyframes rloading{
     0%{
         transform: scale(1);
@@ -73,7 +72,7 @@ section.Picture{
     justify-content: center;
     align-items: center;
 }
-@media (max-width:420px){
+@media (max-width:400px){
     section.Picture{
         height: auto;
         min-height: 100vh;
@@ -91,7 +90,7 @@ section.Picture > ul{
 section.Picture > ul >li{
     margin-bottom: 20px;
 }
-@media (max-width:420px){
+@media (max-width:400px){
     section.Picture{
         padding: 1em;
     }
@@ -105,13 +104,16 @@ section.Click{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(175, 166, 166);
 }
 section.Click .wodian{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    background-color: rgb(74, 112, 104);
+    background-color: rgb(161, 160, 175);
     display: flex;
+    font-size: 22px;
+    color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
