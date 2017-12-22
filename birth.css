@@ -48,7 +48,6 @@ section.Animation .text{
     animation:rloading 1.8s ease infinite alternate;
 }
 section.Animation .music{
-    max-width: 420px;
     height: 100vh;
     display: none;
     justify-content: center;
@@ -57,7 +56,6 @@ section.Animation .music{
 }
 section.Animation .music .shuohua{
     height: 90vh;
-    max-width: 420px;
     margin-top: 1vh;
     flex-direction: column;
     justify-content: center;
