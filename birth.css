@@ -46,6 +46,8 @@ section.Animation .text{
     cursor: pointer;
     animation:rloading 1.8s ease infinite alternate;
     -webkit-animation:rloading 1.8s ease infinite alternate;
+    -moz-animation:rloading 1.8s ease infinite alternate;
+    -ms-animation:rloading 1.8s ease infinite alternate;
     -o-animation:rloading 1.8s ease infinite alternate;
 }
 section.Animation .music{
