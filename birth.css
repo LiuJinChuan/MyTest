@@ -45,6 +45,8 @@ section.Animation .text{
     flex-direction: column;
     cursor: pointer;
     animation:rloading 1.8s ease infinite alternate;
+    -webkit-animation:rloading 1.8s ease infinite alternate;
+    -o-animation:rloading 1.8s ease infinite alternate;
 }
 section.Animation .music{
     height: 100vh;
